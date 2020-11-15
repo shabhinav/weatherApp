@@ -1,0 +1,151 @@
+.weather {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather_day {
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.weather_icons {
+  padding: 5px 10px;
+  &:nth-child(n + 2) {
+    margin-left: 10px;
+  }
+  .weather_icon {
+    width: 60px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.weather_Name {
+  text-align: center;
+  color: grey;
+}
+
+.weather_temp {
+  text-align: center;
+}
+
+.active {
+  border: 2px solid #7ac2e6;
+  background-color: rgba($color: #fdf4e8, $alpha: 0.1);
+}
+
+@media only screen and (max-width: 1239px) and (min-width: 800px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 8px;
+  }
+  .weather {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 799px) and (min-width: 500px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 5px;
+    &:nth-child(1) {
+      margin-left: 50px !important;
+    }
+  }
+
+  .weather {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+@media only screen and (max-width: 668px) and (min-width: 593px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 5px;
+    &:nth-child(1) {
+      margin-left: 100px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 592px) and (min-width: 525px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 5px;
+    &:nth-child(1) {
+      margin-left: 150px !important;
+    }
+  }
+}
+@media only screen and (max-width: 525px) and (min-width: 499px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 5px;
+    &:nth-child(1) {
+      margin-left: 158px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) and (min-width: 0px) {
+  .weather_icons {
+    margin: 0px !important;
+    padding: 5px 5px;
+    &:nth-child(1) {
+      margin-left: 200px !important;
+    }
+  }
+
+  .weather {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+@media only screen and (max-width: 413px) and (min-width: 390px) {
+  .weather_icons {
+    &:nth-child(1) {
+      margin-left: 220px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 389px) and (min-width: 368px) {
+  .weather_icons {
+    &:nth-child(1) {
+      margin-left: 230px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 367px) and (min-width: 334px) {
+  .weather_icons {
+    &:nth-child(1) {
+      margin-left: 250px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 333px) and (min-width: 320px) {
+  .weather_icons {
+    &:nth-child(1) {
+      margin-left: 270px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  .weather_icons {
+    &:nth-child(1) {
+      margin-left: 300px !important;
+    }
+  }
+}

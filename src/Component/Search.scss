@@ -1,0 +1,35 @@
+.searchbar {
+  div {
+    div {
+    }
+  }
+}
+
+.ant-select {
+  width: 100% !important;
+  background: url(https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+    no-repeat right center;
+}
+
+.ant-select-selection-search-input {
+  background: url(https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+    no-repeat right center;
+  z-index: 2;
+  //   border: none;
+  //   background-color: white !important;
+}
+
+.ant-select-selector {
+  background: url("../assets/search.svg") no-repeat right center;
+  padding: 20px !important;
+  border: none !important;
+  outline: none !important;
+}
+
+// .ant-select-selection-placeholder {
+//   padding: 20px !important;
+// }
+
+.autocomplete_search {
+  background: url("../assets/location.svg") no-repeat left center;
+}
